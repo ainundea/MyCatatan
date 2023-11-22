@@ -19,12 +19,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 25px;
+  padding-top: 30px;
   font-size: calc(10px + 2vmin);
   color: rgb(61, 48, 48);
 }
 .layout {
-  padding: 40px;
+  padding: 60px;
   min-height: 50vh;
 }
 .App-link {
@@ -41,4 +41,7 @@
 }
 #tanggal {
   background-color: #f1ea99;
+}
+.row {
+  padding: 30px;
 }
