@@ -1,6 +1,15 @@
 .App {
   text-align: center;
-  color: #1d1d1a;
+  background-color: #96936b;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-logo {
@@ -13,8 +22,18 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.filter {
+  background: #96936b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
 .App-header {
-  background-color: #818b8f;
+  background-color: #279ac7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
