@@ -8,7 +8,7 @@ function DeleteButton({ index, id, onDelete }) {
     <Button
       variant="white"
       className="btn-outline-white fs-6"
-      onClick={() => onDelete(index)}
+      onClick={() => onDelete(id)}
     >
       {" "}
       <svg
